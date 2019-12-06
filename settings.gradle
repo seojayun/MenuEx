@@ -1,0 +1,2 @@
+include ':app', ':menuex2', ':javamenu', ':contextmenu', ':toastex', ':javacontextmenu', ':javacont', ':dialogex', ':dialogex2', ':ex7_4', ':myex7_4', ':ex7_5', ':ex7_6'
+rootProject.name='MenuEx'

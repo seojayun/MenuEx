@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!-- 4. <item 으로 시작-->
+<!--    5. 메뉴는 id 와 title 만 있으면 된다.-->
+
+    <item
+        android:id="@+id/itemRad"
+        android:title="배경색(빨강)"/>
+    <item
+        android:id="@+id/itemGreen"
+        android:title="배경색(초록)"/>
+    <item
+        android:id="@+id/itemBlue"
+        android:title="배경색(파랑)"/>
+    <item
+        android:id="@+id/itemWhite"
+        android:title="배경색(기본)"/>
+
+    <!--  6.  메뉴안의 메뉴를 하이메뉴라고하는데 하이메뉴를 쓰려면 마무리를 ></item>로 마무리를 지으면 된다.-->
+    <!--     id 는 입력하지 않고 title 만 생성 후 <menu 생성-->
+    <item
+        android:title="버튼변경   >>">
+
+        <menu>
+
+            <item
+                android:id="@+id/subRotate"
+                android:title="버튼 45도 회전"/>
+
+            <item
+                android:id="@+id/subSize"
+                android:title="버튼 2배 확대"/>
+
+        </menu>
+
+
+    </item>
+</menu>
+
+
+<!--285p 메뉴 폴더 생성 및 메뉴 xml 파일 생성 편집 완료 -->
+<!-- 7. 메인 엑티비티 .java 로 이동-->

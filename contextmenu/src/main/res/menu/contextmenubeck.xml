@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    5. 옵션메뉴와 똑같이 작업한다.(현재 상태에서는 옵션메뉴처럼 보임-->
+<!--    6. 버튼별로 만들어야되므로 추가로 xml 하나 더 생성 후 작업-->
+    <item
+        android:id="@+id/itemRad"
+        android:title="배경색 (빨강)"/>
+
+    <item
+        android:id="@+id/itemGreen"
+        android:title="배경색 (초록)"/>
+
+    <item
+        android:id="@+id/itemBlue"
+        android:title="배경색 (파랑)"/>
+
+    <item
+        android:id="@+id/itemWhite"
+        android:title="배경색 (기본)"/>
+
+</menu>

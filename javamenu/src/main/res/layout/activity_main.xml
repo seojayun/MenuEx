@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linear1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="옵션메뉴 활용"
+        android:textSize="40dp"/>
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="기만자"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"/>
+
+
+    <!--    1. 왼쪽 res 왼쪽마우스 클릭 new 뉴 리로스디렉토리 후  menu  -> menu 선택 후 생성-->
+    <!-- 2. 메뉴 폴더에서 뉴 클릭 후 메뉴 리소스 파일 클릭  menu1.xml 로 생성     -->
+    <!--    옵션은 한 엑티비티에 한개만 쓸 수 있다. 이름도 폴더에 맞게 지정할 것-->
+    <!--   3. xml 생성 후 menu1.xml로 이동 -->
+
+</LinearLayout>

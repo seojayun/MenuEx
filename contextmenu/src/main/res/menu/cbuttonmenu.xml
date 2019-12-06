@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemRotate"
+        android:title="버튼 45도 회전"/>
+    <item
+        android:id="@+id/itemSize"
+        android:title="버튼 2배 확대"/>
+    <item
+        android:id="@+id/itemInit"
+        android:title="버튼을 원래대로"/>
+
+</menu>
+
+<!--7. 위젯별로 만들었기 때문에 2개 완성 후 자바로 이동 후 메뉴를 사용할 위젯 을 등록할 준비 -->
